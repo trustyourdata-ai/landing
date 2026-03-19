@@ -395,3 +395,23 @@ footer{
   .side{ grid-column: span 12; }
   .nav-links{ display:none; }
 }
+.back-link {
+  display: inline-block;
+  margin-bottom: 24px;
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+.legal-page {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.legal-content {
+  max-width: 860px;
+}
